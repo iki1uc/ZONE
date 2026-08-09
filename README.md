@@ -1,90 +1,66 @@
-# TIME · RESPO · iki1uc
+# ZONE · Raum‑Ebene · iki1uc
 
-TIME‑RESPO ist die **Zeit‑Antwort‑Ebene** des iki1uc‑ROOT‑Systems.  
-Sie verbindet die Zeitachse (CLOCK), die Antwortachse (RESPO) und die Raumachse (ZONE).
+ZONE ist die **Raum‑Ebene** des iki1uc‑ROOT‑Systems.  
+Sie verbindet CLOCK (Zeit), TIME (TEM), RESPO (Antwort) und USER.use (Dominanz).
 
 ---
 
 ## 🔹 Zweck
 
-TIME‑RESPO steuert:
+ZONE definiert:
 
-- die öffentliche Zeit (TIME.clock)
-- die interne Antwortzeit (RESPO.clock)
-- die Raumzeit (ZONE.clock)
-- die ROOT‑Sequenz (iki → bir → uc → iki1uc)
-- die Synchronisation zwischen CLOCK, TIME, RESPO und ZONE
+- Raumzeit (ZONE.clock)
+- Raumebenen (ZONE.layer)
+- Raumübergänge (ZONE.portal)
+- Rauminstanzen (ZONE.room)
+- Raumscan (ZONE.scan)
+- Raumsync (ZONE.sync)
+- Welt‑Ebene (WELT.zone)
+- Universum‑Ebene (UNI.zone)
 
-TIME ist die **TEM‑Ebene**, RESPO ist die **Antwort‑Ebene**,  
-ZONE ist die **Raum‑Ebene**, USER.use ist die **Dominanz‑Ebene**.
+ZONE ist die **räumliche Achse** des Systems.
 
 ---
 
 ## 🔹 Struktur
 
-### **CLOCK‑Ebene**
-- `CLOCK.engine.js` – Zeitkern
-- `clock.run.js` – Laufzeit
-- `clock.pipe.html` – Pipeline
-- `clock.view.html` – Anzeige
-- `clock.html` – Basis
-
-### **TIME‑Ebene**
-- `index.html` – Hauptmodul
-- `ID.html` – Identität
-- `README.md` – Dokumentation
-- `t.js` – TIME‑Sequenz
-- `OC.js` – Operator‑Core
-
-### **RESPO‑Ebene**
-- Antwort‑Clock
-- Antwort‑Kernel
-- Antwort‑Sync
-
-### **ZONE‑Ebene**
+### **ZONE‑Module**
 - `ZONE.boot` – Startpunkt
-- `ZONE.layer` – Ebenen
+- `ZONE.layer` – Raum‑Schichten
 - `ZONE.portal` – Übergänge
 - `ZONE.room` – Räume
 - `ZONE.scan` – Scan‑Ebene
 - `ZONE.sync` – Synchronisation
 
+### **Welt / Universum**
+- `WELT.zone` – Welt‑Ebene
+- `UNI.zone` – Universum‑Ebene
+
+### **System‑Integration**
+- CLOCK.engine.js  
+- TIME.index  
+- RESPO  
+- ROOT‑Sequenz (iki → bir → uc → iki1uc)
+
 ---
 
-## 🔹 TIME‑Clock
+## 🔹 ZONE‑Clock
 
-TIME.clock folgt:
+ZONE.clock folgt:
 
 1. ROOT.clock  
 2. CLOCK.engine  
-3. TIME.pipe  
-4. TIME.run  
-5. RESPO.clock  
-6. ZONE.clock  
-7. USER.use (dominant)
-
----
-
-## 🔹 TIME‑RESPO‑Funktion
-
-TIME‑RESPO sorgt für:
-
-- Zeit‑Antwort‑Stabilität  
-- keine TIME‑Lag  
-- keine RESPO‑Blockade  
-- keine ZONE‑Desync  
-- vollständige ROOT‑Sequenz  
-- Synchronität zwischen Zeit, Antwort und Raum  
+3. TIME.clock  
+4. RESPO.clock  
+5. ZONE.clock  
+6. USER.use (dominant)
 
 ---
 
 ## 🔹 Status
 
-TIME aktiv  
-RESPO aktiv  
 ZONE aktiv  
 CLOCK aktiv  
+TIME aktiv  
+RESPO aktiv  
 USER.use aktiv  
-OC.js aktiv  
-PIPE aktiv  
-RUN aktiv  
