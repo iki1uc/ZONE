@@ -1,15 +1,8 @@
-[WELT.layer]
-version = 1.0
-type    = "welt-layer"
-
-layer.name   = "WELT.HI"
-layer.mode   = ["global","eden","portal","overlay"]
-
-layer.bind = [
-  "HI.layer.final",
-  "WELT.portal.final"
-]
-
-layer.output = "WELT.layer.final"
-layer.state  = "active"
-
+ZONE.layer
+L1: Welt
+L2: Universum
+L3: Raum
+L4: Portal
+L5: Scan
+L6: Sync
+STATUS: aktiv
