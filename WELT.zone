@@ -1,1 +1,6 @@
+WELT.zone
+ZONE: Welt
+LEVEL: 1
+CLOCK: ZONE.clock
+STATUS: aktiv
 
